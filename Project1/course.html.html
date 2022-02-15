@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Project1/Project1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@800;900&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">   
+
+    <title>Mohamed Elsayed</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Project1.html"> <img src="./Photos/logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- This <i its icon for close from link-->
+                 <ul>
+                    <li> <a href="./Home.html.html" >HOME</a></li>
+                    <li> <a href="./about.html.html" >ABOUT</a></li>
+                    <li> <a href="./course.html.html" >COURSE</a></li>
+                    <li> <a href="./Blog.html.html" >BLOG</a></li>
+                    <li> <a href="./contact.html.html" >CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            <!-- This icon -->
+
+        </nav>
+        <h1> Our Courses  </h1>
+  
+
+    </section>
+    <!-- THE SECTION NEW CONTENT COURSES -->
+    <section class="course">
+        <h1> Things That I Finished It </h1>
+        <p> HTML AND CSS I finish it in 4 or 5 months to make this project and now I make some 
+             projects to master them and then i will study JavaScript  </p>
+             <div class="row">
+                  <div class="course-col">
+                      <h3> JavaScript</h3>
+                      <p> SmartClient provides the most comprehensive suite of components available. Get the most powerful and complete UI component set for Angular. Period. 1 codebase - all devices. Live Hands-on Demos. Used by 4 of 4 top banks. 60-Day Free Trial. Code in java</p>
+                  </div>
+                  <div class="course-col">
+                    <h3> English</h3>
+                    <p> Ice dance is a discipline of figure skating that historically draws from ballroom dancing. A team consists of one woman and one man. Ice dance originated as recreational social skating: couples and friends would skate waltzes, marches, and other social dances. By the early 1900s it was popular in this form around the world.</p>
+                </div>
+                <div class="course-col">
+                    <h3> BootStrap</h3>
+                    <p> Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+                </div>
+             </div>
+
+    </section>
+     <!-- Facitities                      -->
+     <section class="facitities">
+        <h1> Our Facitities</h1>
+        <p> We Give you many of courses for free if you want to enrol in with my team </p>
+        <div class="row">
+            <div class="facitities-col">
+                <img src="./Photos/library.png">
+                <h3> World Class Library</h3>
+                <p> In the library you can read or study anything you love it bec we have many sort of books in difftent subject so enjoy when you reading</p>
+            </div>
+            <div class="facitities-col">
+                <img src="./Photos/basketball.png">
+                <h3> Basket Ball Area</h3>
+                <p> This place for playing basketball and to follow the rules of basketball don't try to break it please bec if you do we will punish you </p>
+            </div>
+            <div class="facitities-col">
+                <img src="./Photos/cafeteria.png">
+                <h3> Cafeteria Area</h3>
+                <p> This Place for drink hot drinks or cold drinks and to relax from your stressful time you spend it here with us </p>
+            </div>
+        </div>
+
+    </section>
+   
+
+        <!-- FOOTTTTTEEERRR-->
+        <section class="footer">
+            <h4> About Us</h4>
+            <p> By Mohamed Elsayed Ali and I took this Project From Video On Youtube <br>
+            for any Question you can text me </p>
+            <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+            <p> Math With <i class="fa fa-heart-o"></i> Easy Project </p>
+
+        </section>
+
+     
+            <!--  Java Script for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu () {
+            navLinks.style.right = "0";
+        }
+        function hideMenu () {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
